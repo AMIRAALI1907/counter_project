@@ -1,0 +1,40 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  /* background-color: rgba(128, 128, 128, 0.452); */
+  background-image: url(images/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.containerr{
+    text-align: center;
+    background-color:#deb887b0;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+h3{
+    font-size: 60px;
+    color: brown;
+    
+}
+.containerr button{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    /* background-color: #007580; */
+    background-color: white;
+    color:black;
+    outline: none;
+  border-color:transparent;
+}
+button:hover{
+    background-color:black;
+    color:white;
+}
